@@ -7,6 +7,20 @@ hello-swearjure uses only 9 alphanumerical characters, 7 distinct ones, on a
 single line: `meta ns-map`. This is currently needed once for `project.clj`, and
 once for the application (only one for multiple files, theoretically).
 
+## What is Swearjure?
+
+Swearjure is Clojure code without alphanumerical characters (or with a very
+limited amount of them). While one may think you can do very little with it, it
+has a rather surprising amount of power.
+[Swearjure — Clojure without alphanumerics][blogpost] describes the current
+state of Swearjure, though this application uses some new inventions which will
+be documented in the future. There has also been a [talk about Swearjure][talk],
+done by Gary Fredericks ([@gfredericks_][gary]).
+
+[talk]: http://upload.gfredericks.com/swearjure/talk.html
+[blogpost]: http://hypirion.com/musings/swearjure
+[gary]: https://twitter.com/gfredericks_
+
 ## Usage
 
 As of now, you can run hello-swearjure by issuing the following command:
