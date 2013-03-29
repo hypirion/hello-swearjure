@@ -1,7 +1,7 @@
 language: clojure
 lein: lein2
-before_install: git clone https://github.com/technomancy/leiningen.git lein && cd lein && git checkout 2.1.2 && cd leiningen-core && lein2 bootstrap && cd ../../ && lein/bin/lein run
-script: lein/bin/lein run
+before_install: git clone https://github.com/technomancy/leiningen.git lein && cd lein && git checkout 2.1.2 && cd leiningen-core && lein2 bootstrap && cd ..
+script: cd .. && lein/bin/lein run
 jdk:
   - openjdk6
   - openjdk7
