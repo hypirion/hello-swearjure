@@ -1,5 +1,8 @@
 # hello-swearjure
 
+[![Build Status](https://travis-ci.org/hyPiRion/hello-swearjure.png?branch=master)]
+(https://travis-ci.org/hyPiRion/hello-swearjure)
+
 `Hello, World!` application in Swearjure. Prints out `Hello, World!` in the
 terminal window and exits.
 
