@@ -6,9 +6,9 @@
 `Hello, World!` application in Swearjure. Prints out `Hello, World!` in the
 terminal window and exits.
 
-hello-swearjure uses only 9 alphanumerical characters, 7 distinct ones, on a
-single line: `meta ns-map`. This is currently needed once for `project.clj`, and
-once for the application (only one for multiple files, theoretically).
+hello-swearjure uses only 5 alphanumerical characters in the program itself on a
+single line: `ns-map`. `project.clj` needs some more because Leiningen runs on
+Clojure 1.5.1: 9 alphanumerical characters, 7 distinct ones.
 
 ## What is Swearjure?
 
