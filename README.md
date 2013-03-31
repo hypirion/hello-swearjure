@@ -8,7 +8,8 @@ terminal window and exits.
 
 hello-swearjure uses only 5 alphanumerical characters in the program itself on a
 single line: `ns-map`. `project.clj` needs some more because Leiningen runs on
-Clojure 1.5.1: 9 alphanumerical characters, 7 distinct ones.
+Clojure 1.5.1: 9 alphanumerical characters, 7 distinct ones. How hello-swearjure
+works is explained at <http://www.hypirion.com/musings/hello-swearjure>.
 
 ## What is Swearjure?
 
